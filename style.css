@@ -3,56 +3,68 @@
 }
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background: #fdfdfd;
 }
 .hero {
   background: url('assets/hero.jpg') center center/cover no-repeat;
   height: 100vh;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: relative;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 50px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 40px 20px;
   width: 100%;
 }
 .logo {
-  width: 150px;
+  width: 180px;
   margin-bottom: 20px;
 }
 h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  font-size: 3.2rem;
+  margin: 0;
+  font-weight: 600;
 }
-p {
-  font-size: 1.2rem;
-  margin: 0 auto;
-  max-width: 700px;
+.tagline {
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 .section {
-  padding: 80px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 .section.light {
-  background: #f9f9f9;
-  color: #333;
+  background: #ffffff;
 }
 .section.dark {
-  background: #1a1a1a;
-  color: #fff;
+  background: #0d0d0d;
+  color: white;
 }
-.section.contact {
-  background: #eaeaea;
+.section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.contact {
+  background: #f3f3f3;
 }
 footer {
-  background: #111;
-  color: #fff;
-  padding: 20px;
+  background: #0d0d0d;
+  color: #aaa;
   text-align: center;
+  padding: 30px 10px;
+  font-size: 0.9rem;
 }
 a {
   color: #007acc;

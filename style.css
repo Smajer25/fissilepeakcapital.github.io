@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+header {
+  background-image: url('assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.hero-overlay h1 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+.tagline {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+nav {
+  margin-top: 25px;
+}
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.section {
+  padding: 60px 20px;
+}
+.section.alt {
+  background-color: #eaeaea;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+ul {
+  padding-left: 20px;
+}
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+a {
+  color: #007acc;
+}
+a:hover {
+  text-decoration: underline;
+}
